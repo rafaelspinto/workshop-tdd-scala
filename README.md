@@ -1,5 +1,7 @@
 # TDD Workshop using Scala 
 
+[![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-scala.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-scala) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-scala&metric=alert_status)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-scala) [![Lines](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-scala&metric=ncloc)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-scala) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-scala&metric=coverage)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-scala) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-scala&metric=code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Technical debt](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=sqale_index)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+
 
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) skills.
 
