@@ -1,6 +1,6 @@
 package workshop.payment
 
-case class CustomWallet(var balance: Int, maxAmount: Int = 1000) extends Wallet{
+class CustomWallet(var balance: Int, maxAmount: Int = 1000) extends Wallet{
   def remove(amount: Int): Int = {
     if(amount > balance) {
       throw new NotEnoughFundsException
