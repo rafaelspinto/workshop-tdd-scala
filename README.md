@@ -146,5 +146,5 @@ There are plenty of tools out there that can help you with this. In this worksho
 * [Calculator](/src/test/scala/workshop/calculator) - Simple example to get you started
 * [LoginManager](/src/test/scala/workshop/login) - Working with exceptions
 * [StringProcessor](/src/test/scala/workshop/strings) - Working with data providers
-* [PaymentBroker](/src/test/scala/workshop/payment) - Working with dependencies, mocks and stubs
+* [PaymentBroker,CurrencyBroker,CustomWallet](/src/test/scala/workshop/payment) - Working with dependencies, mocks and stubs
 * [TranslateService](/src/test/scala/workshop/service) - Working with Futures
