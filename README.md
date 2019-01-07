@@ -136,7 +136,15 @@ There are plenty of tools out there that can help you with this. In this worksho
 
 * **Automation Server** - Allows you to automate the test execution ([Continuous Integration](https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
 
+   You can check the current status of the workshop project by clicking the following badge:
+
+   [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-scala.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-scala)
+
 * **Static Code Analyzer** - Allows you to continuously inspect the quality of the code by detecting issues and providing suggestions to solve them. In this project we are using [SonarCloud](http://sonarcloud.io).
+
+    You can check the current status of the workshop project by clicking the following badge:
+
+    [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-scala&metric=alert_status)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-scala)
 
 * **Kanban Board** - Allows you to track your project's work with a workflow visualization tool.
 
