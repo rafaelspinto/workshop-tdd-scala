@@ -22,7 +22,7 @@ class CustomWalletTest extends FunSuite {
     val amount = 10
     val balance = 11
     val wallet: CustomWallet = new CustomWallet(balance)
-    assert(wallet.add(amount) == balance + amount)
+    assert(wallet.add(amount) == wallet.getBalance)
   }
 
   test("add: if amount is greater than allowed throws MaxAmountExceededException") {
@@ -45,6 +45,6 @@ class CustomWalletTest extends FunSuite {
     val amount = 9
     val balance = 11
     val wallet: CustomWallet = new CustomWallet(balance)
-    assert(wallet.remove(amount) == balance - amount)
+    assert(wallet.remove(amount) == wallet.getBalance)
   }
 }

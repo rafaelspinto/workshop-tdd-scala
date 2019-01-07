@@ -1,12 +1,12 @@
 package workshop.payment
 
-case class CustomWallet(balance: Int, maxAmount: Int = 1000) extends Wallet{
+case class CustomWallet(var balance: Int, maxAmount: Int = 1000) extends Wallet{
   def remove(amount: Int): Int = {
     if(amount > balance) {
       throw new NotEnoughFundsException
     }
-
-    balance - amount
+    balance -= amount
+    balance
   }
 
   def add(amount: Int): Int = {
@@ -16,7 +16,8 @@ case class CustomWallet(balance: Int, maxAmount: Int = 1000) extends Wallet{
     if(amount > maxAmount) {
       throw new MaxAmountExceededException
     }
-    amount + balance
+    balance += amount
+    balance
   }
 
   override def getBalance: Int = balance
